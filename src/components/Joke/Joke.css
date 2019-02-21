@@ -3,11 +3,13 @@
 .block__joke {
     border: 1px solid black;
     border-radius: 5px;
-    width: 40%;
-    display: inline-block;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
 }
 
 .block__joke-text{
     margin: 0;
+    padding: 10px 10px;
 
 }
