@@ -1,0 +1,13 @@
+
+
+.block__joke {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 40%;
+    display: inline-block;
+}
+
+.block__joke-text{
+    margin: 0;
+
+}
