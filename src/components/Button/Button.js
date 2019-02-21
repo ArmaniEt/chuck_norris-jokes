@@ -1,13 +1,17 @@
 import React, {Component} from 'react';
 import './Button.css';
 
-class Button extends Component{
+export default class Button extends Component {
 
-    render(){
-        return(
-          <div>
+    shouldComponentUpdate(nextProps, nextState){
+        return nextProps === this.props;
+    }
 
-          </div>
+    render() {
+        return (
+            <div className="generator">
+                <button onClick={this.props.jokesOnChange} type="button" className="generator__button">Generate new jokes</button>
+            </div>
         )
     }
 }
