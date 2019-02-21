@@ -4,7 +4,7 @@ import Joke from "../components/Joke/Joke";
 import Button from "../components/Button/Button";
 
 //componentDidMount inside this hook write a response
-//created a container for displaying jokes
+//create a container for displaying jokes
 
 
 export default class Jokes extends Component {

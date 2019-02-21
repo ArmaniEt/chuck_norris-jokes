@@ -1,12 +1,7 @@
-import React, {Component} from 'react';
+import React, {PureComponent} from 'react';
 import './Button.css';
 
-export default class Button extends Component {
-
-    shouldComponentUpdate(nextProps, nextState){
-        return nextProps === this.props;
-    }
-
+export default class Button extends PureComponent {
     render() {
         return (
             <div className="generator">
